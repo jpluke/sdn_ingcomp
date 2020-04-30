@@ -18,3 +18,7 @@ sudo addgroup vagrant wireshark
 sudo apt-get install -y ssh git emacs sshfs
 
 sudo apt install -y mininet python-ryu python-ryu-doc ryu-bin openvswitch-switch
+
+sudo adduser vagrant ryu 
+
+git clone https://github.com/osrg/ryu.git
